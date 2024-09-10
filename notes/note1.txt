@@ -1,0 +1,38 @@
+1. 
+Anaconda prompt
+code . --> opens vs code
+create an environment --> conda create -p venv python==3.8 -y
+to activate --> conda activate venv/
+clone our GitHub repo by following the steps just after we create a repo on site:
+git init
+create README.md
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/krishnaik06/mlproject.git
+git push u origin main
+
+create .gitignore in repo from site
+to update in vs -> git pull
+
+create setup.py and requirements.txt  
+setup.py --> resp for createing app as a package
+write the basic code in setup.py:
+
+from setuptools import find_packages, setup
+setup(
+name = 'mldeployment',
+version='0.0.1',
+author='krishnath',
+author_email='krishnathshinde47@gmail.com',
+packages=find_packages(),
+install_requires=['pandas','numpy','seaborn']
+)
+
+create a folder named src and __init__.py in it.
+this folder is the main working folder
+
+we update the setup.py so that it can read and install from requirements.txt
+-e . runs the setup.py automatically
+
+Now we can run pip install -r requirements.txt
