@@ -13,3 +13,5 @@ create train_pipeline and predict_pipeline.py in pipeline folder
 Create logger.py, exception.py, utils.py in src
 
 Write the exception handling code, logger code, and utils.py
+
+4. update data_ingestion.py
