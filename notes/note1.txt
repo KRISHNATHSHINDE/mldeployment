@@ -12,6 +12,11 @@ git branch -M main
 git remote add origin https://github.com/krishnaik06/mlproject.git
 git push u origin main
 
+// to update repo  ing 
+git add . --> to add
+git commit -m "setup"
+git push -u origin main
+
 create .gitignore in repo from site
 to update in vs -> git pull
 

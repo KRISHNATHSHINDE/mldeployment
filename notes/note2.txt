@@ -1,0 +1,15 @@
+2.
+Create components folder in src
+in components create __init__.py
+these components are all the modules that we are going to create like data ingestion etc
+in data_ingestion.py we can do data validation, train,test etc.
+in data_transformation.py we can do transformations on data.
+model_trainer.py will have the code that will train on the data and see metrics.
+
+Create pipeline folder in src
+in pipeline create __init__.py
+create train_pipeline and predict_pipeline.py in pipeline folder
+
+Create logger.py, exception.py, utils.py in src
+
+Write the exception handling code, logger code, and utils.py
